@@ -1,0 +1,17 @@
+.hero-img {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-bottom: .3em;
+}
+
+.picture {
+  padding-left: 10rem;
+  padding-right: 10em;
+}
+
+.words {
+  font-size: 8pt;
+  text-align: center;
+}

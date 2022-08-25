@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Bootstrap</title>
+</head>
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="">
+  <header class="container-fluid ">
+    <!-- SECTION navbar -->
+    <section class="row">
+      <div class="col-6 space-between d-flex justify-content-center ">
+        <i class="mdi mdi-earth fs-1">
+        </i>
+      </div>
+      <div class=" col-6  d-flex justify-content-between mt-3 pe-5">
+        <h5>Explore</h5>
+        <h5>About</h5>
+        <h5>Blog</h5>
+        <h5>Contact</h5>
+        <h5>Store</h5>
+      </div>
+
+
+
+
+    </section>
+
+  </header>
+
+  <main class="container-fluid">
+    <!-- SECTION start bootstrap -->
+    <section class="row hero-img" style="background-image:url(https://source.unsplash.com/random/1500x500?sig=3) ;">
+    </section>
+
+
+    <section class="row bg-dark justify-content-center ">
+      <div class="col-6  text-light p-5 picture">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptate laboriosam blanditiis dolorum
+          eos
+          tenetur, autem, consequuntur, fugit libero dolor eius earum quis animi iste nemo quia harum explicabo.
+          Mollitia.
+        </p>
+        <button type="button" class="btn btn-secondary  flex-end">Learn More</button>
+      </div>
+    </section>
+
+    <section class="row p-5  justify-content-center ">
+      <div class="col-2  ">
+        <img src="https://source.unsplash.com/random/150x150?sig=3" alt="pie" class="img-fluid rounded">
+        <p class=" words pe-4 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, rem?</p>
+      </div>
+      <div class="col-2 ">
+        <img src="https://source.unsplash.com/random/150x150?sig=3" alt="pie" class="img-fluid rounded">
+        <p class=" words pe-4 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, rem?</p>
+      </div>
+      <div class="col-2 ">
+        <img src="https://source.unsplash.com/random/150x150?sig=3" alt="pie" class="img-fluid rounded">
+        <p class=" words pe-4 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, rem?</p>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- SECTION info -->
+  <footer class="container-fluid bg-dark">
+    <section class="row  text-light p-4 justify-content-center">
+      <div class="col-5 d-flex flex-row justify-content-between align-items-center fs-5 pe-5">
+        <div class="mx-2">
+          <h4>Facebook</h4>
+        </div>
+        <div class="mx-2">
+          <h4>Youtube</h4>
+        </div>
+        <div class="mx-2">
+          <h4>Twitter</h4>
+        </div>
+        <div class="mx-2">
+          <h4>Instagram</h4>
+        </div>
+      </div>
+      <div class="col-3 ps-5 fs-5">
+        <div>696.969.696</div>
+        <div>peanutbutter@jellytime.com</div>
+      </div>
+      <div class="col-3 fs-5">
+        <div>peanut Butter Way</div>
+        <div>Jellytown, BA 11122</div>
+      </div>
+
+
+    </section>
+  </footer>
+
+</body>
+
+</html>
